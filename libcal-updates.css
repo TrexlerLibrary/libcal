@@ -1,0 +1,27 @@
+/* adjust header width, desktop vs mobile */
+#s-lc-public-banner-img { width: 50%; }
+
+@media (max-width: 1024px) {
+    #s-lc-public-banner-img { width: 100%; }
+}
+
+/* adjust LibCal's header styling to better match Bootstrap's */ 
+h1#s-lc-public-header-title {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.s-lc-public-header-text {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* our own classes */
+.event-sidebar {
+    margin-bottom: .5em;
+}
+
+.event-information {
+    font-size: 1.25em;
+}
